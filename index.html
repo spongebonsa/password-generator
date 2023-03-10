@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>☣ gelete</title>
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap'>
+		<link rel="stylesheet" href="./style.css">
+
+	</head>
+
+	<body>
+		<div class="container">
+			<h2 class="title">የይለፍ ቃል fabica 😶</h2>
+			<div class="result">
+				<div class="result__title field-title">የመነጨ የይለፍ ቃል</div>
+				<div class="result__info right">ለመቅረጽ ጠቅ ያድርጉ</div>
+				<div class="result__info left">ተገልብጧል</div>
+				<div class="result__viewbox" id="result">ለመፍጠር ጠቅ ያድርጉ</div>
+				<button id="copy-btn" style="--x: 0; --y: 0"><i class="far fa-copy"></i></button>
+			</div>
+			<div class="length range__slider" data-min="4" data-max="32">
+				<div class="length__title field-title" data-length='0'>ርዝመት:</div>
+				<input id="slider" type="range" min="4" max="32" value="16" />
+			</div>
+
+			<div class="settings">
+				<span class="settings__title field-title">ስሜት :</span>
+				<div class="setting">
+					<input type="checkbox" id="uppercase" checked />
+					<label for="uppercase">አቢይ ሆሄያትን ያካትታል</label>
+				</div>
+				<div class="setting">
+					<input type="checkbox" id="lowercase" checked />
+					<label for="lowercase">ንዑስ ሆሄያትን ያካትታል</label>
+				</div>
+				<div class="setting">
+					<input type="checkbox" id="number" checked />
+					<label for="number">ቁጥሮችን ጨምሮ</label>
+				</div>
+				<div class="setting">
+					<input type="checkbox" id="symbol" />
+					<label for="symbol">ፊርማዎችን ጨምሮ</label>
+				</div>
+			</div>
+
+			<button class="btn generate" id="generate">የ ሚስጥር ቁጥር ፍጠር</button>
+		</div>
+
+
+		<div class="support">
+			<a href="https://twitter.com/BONSA22563026" target="_blank"><i class="fab fa-twitter-square"></i></a>
+
+		</div>
+
+
+		</a>
+		<script src="./script.js"></script>
+
+	</body>
+
+</html>
